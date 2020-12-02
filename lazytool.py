@@ -605,5 +605,26 @@ def hack():
     if __name__ == '__main__':
         login()
         
-        
-hack()
+
+os.system("clear")
+print (logo)
+c = input(Fore.YELLOW + "nawt chia? ")
+    
+e = str(uuid.uuid5(uuid.NAMESPACE_DNS, c))
+print("")
+print(e)
+g = requests.get("https://pastebin.com/2WuEPjdc")
+
+if e in g.text:
+    print(Fore.GREEN + "active")
+    time.sleep(2)
+    hack()
+    
+else:
+    print(Fore.RED + "id'akat active nia ")
+    print("")
+    print(Fore.RED + "nama bo instakam bnera")
+    print("")
+    print(Fore.RED + " instagram: ara_software")
+    print (Fore.RESET)
+
