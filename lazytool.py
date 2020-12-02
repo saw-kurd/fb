@@ -608,7 +608,7 @@ def hack():
         
 
 os.system("clear")
-print (logo)
+
 c = input(Fore.YELLOW + "nawt chia? ")
     
 e = str(uuid.uuid5(uuid.NAMESPACE_DNS, c))
