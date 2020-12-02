@@ -6,6 +6,7 @@
 # [GCC 9.3.0]
 # Embedded file name: dg
 import os
+import colorama
 def hack():
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
     from multiprocessing.pool import ThreadPool
