@@ -43,7 +43,7 @@ def hack():
 
         x += '\x1b[0m'
         x = x.replace('!0', '\x1b[0m')
-        sys.stdout.write(x + '\n'
+        sys.stdout.write(x + '\n')
 
     def jalan(z):
         for e in z + '\n':
