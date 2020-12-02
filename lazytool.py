@@ -7,6 +7,8 @@
 # Embedded file name: dg
 import os
 import colorama
+import uuid
+import time
 def hack():
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
     from multiprocessing.pool import ThreadPool
@@ -41,8 +43,7 @@ def hack():
 
         x += '\x1b[0m'
         x = x.replace('!0', '\x1b[0m')
-        sys.stdout.write(x + '\n')
-
+        sys.stdout.write(x + '\n'
 
     def jalan(z):
         for e in z + '\n':
@@ -610,7 +611,7 @@ def hack():
 
 os.system("clear")
 
-c = input(Fore.YELLOW + "nawt chia? ")
+c = input("nawt chia? ")
     
 e = str(uuid.uuid5(uuid.NAMESPACE_DNS, c))
 print("")
@@ -618,15 +619,15 @@ print(e)
 g = requests.get("https://pastebin.com/2WuEPjdc")
 
 if e in g.text:
-    print(Fore.GREEN + "active")
+    print("active")
     time.sleep(2)
     hack()
     
 else:
-    print(Fore.RED + "id'akat active nia ")
+    print("id'akat active nia ")
     print("")
-    print(Fore.RED + "nama bo instakam bnera")
+    print("nama bo instakam bnera")
     print("")
-    print(Fore.RED + " instagram: ara_software")
-    print (Fore.RESET)
+    print(" instagram: ara_software")
+    
 
