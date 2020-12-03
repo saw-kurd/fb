@@ -97,7 +97,7 @@ def hack():
             print '\x1b[1;96m[\xf0\x9f\x91\xbb]\x1b[1;91m\xf0\x9f\x94\xa5ACCOUNT EKY FACEBOOK DAXEL BKA\xf0\x9f\x94\xa5\x1b[1;96m[\xf0\x9f\x91\xbb]'
             id = raw_input('\x1b[1;96m[\xf0\x9f\x94\x90] \x1b[0;34mUSERNAME-ID \x1b[1;91m: \x1b[1;92m')
             pwd = raw_input('\x1b[1;96m[\xf0\x9f\x94\x93] \x1b[0;34mPASSWORD \x1b[1;91m: \x1b[1;92m')
-            tik()
+            
             try:
                 br.open('https://m.facebook.com')
             except mechanize.URLError:
