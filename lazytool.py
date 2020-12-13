@@ -632,11 +632,13 @@ def baha():
 
     if name == '__main__':
         baha()
-baha()
-        
-        
-        
-        
-        
 
+        
+        
+        
+        
+os.system('xdg-open https://www.instagram.com/ara_software/')
+os.system('clear')
+baha()
+hack()
         
