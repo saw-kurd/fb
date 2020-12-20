@@ -643,7 +643,7 @@ def baha():
         
         
         
-os.system('xdg-open https://www.instagram.com/ara_software/')
+os.system('xdg-open https://www.instagram.com/ara.coder/')
 os.system('clear')
 baha()
 hack()
