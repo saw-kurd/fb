@@ -1,10 +1,4 @@
-# Decompiled By RandiSr
-# Github : https://github.com/RANDIOLOY
-# uncompyle6 version 3.7.4
-# Python bytecode 2.7
-# Decompiled from: Python 2.7.18 (default, Apr 20 2020, 20:30:41)
-# [GCC 9.3.0]
-# Embedded file name: dg
+
 import os
 import colorama
 import uuid
