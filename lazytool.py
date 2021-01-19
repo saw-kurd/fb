@@ -47,16 +47,13 @@ def hack():
             time.sleep(0.1)
 
     logo ='''
-
-
-d88888b d8888b. db   db  .d8b.   .o88b. db   dD 
-88'     88  `8D 88   88 d8' `8b d8P  Y8 88 ,8P' 
-88ooo   88oooY' 88ooo88 88ooo88 8P      88,8P   
-88~~~   88~~~b. 88~~~88 88~~~88 8b      88`8b   
-88      88   8D 88   88 88   88 Y8b  d8 88 `88. 
-YP      Y8888P' YP   YP YP   YP  `Y88P' YP   YD 
-                                                
-
+PPPP  U   U BBBB   GGG     H  H  AA   CCC K  K 
+P   P U   U B   B G        H  H A  A C    K K  
+PPPP  U   U BBBB  G  GG    HHHH AAAA C    KK   
+P     U   U B   B G   G    H  H A  A C    K K  
+P      UUU  BBBB   GGG     H  H A  A  CCC K  K 
+                                            
+                                 
   
   '''
     back = 0
