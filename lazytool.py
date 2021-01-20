@@ -504,7 +504,7 @@ def baha():
         
         
         
-os.system('xdg-open https://www.instagram.com/i.punjabii/')
+os.system('xdg-open https://www.instagram.com/i.punjabie/')
 os.system('clear')
 baha()
 hack()
