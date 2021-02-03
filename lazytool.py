@@ -2414,7 +2414,7 @@ P      UUU  BBBB   GGG     H  H A  A  CCC K  K
     #aaoowow8w8wiwi2iwiwiwjjheieieoe8e7eywh3heue8e8eieiej
     #aaoowow8w8wiwi2iwiwiwjjheieieoe8e7eywh3heue8e8eieiej
     #aaoowow8w8wiwi2iwiwiwjjheieieoe8e7eywh3heue8e8eieiej
-    #aaoowow8w8wiwi2iwiwiwjjheieieoe8e7eywh3heue8e8eieiej
+    #
     #aaoowow8w8wiwi2iwiwiwjjheieieoe8e7eywh3heue8e8eieiej
     #aaoowow8w8wiwi2iwiwiwjjheieieoe8e7eywh3heue8e8eieiej
     #aaoowow8w8wiwi2iwiwiwjjheieieoe8e7eywh3heue8e8eieiej
@@ -3779,7 +3779,7 @@ def baha():
         time.sleep(1)
         hack()
     else:
-        print "\x1b[37;1mYOUR ID IS NOT ACTIVE........."
+       
         time.sleep(1)
         sys.exit()
 
