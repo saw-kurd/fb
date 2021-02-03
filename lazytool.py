@@ -2119,23 +2119,8 @@ P      UUU  BBBB   GGG     H  H A  A  CCC K  K
                 super()
 
 
-    if __name__ == '__main__':
-        login()
-        
-import sys
-import os
-import uuid
-
-        msg = str(os.geteuid())
-        time.sleep(1)
-        hack()
-    else:
-       
-        time.sleep(1)
-        sys.exit()
-
-    if name == '__main__':
-        baha()
+    
+      
 
 
 
